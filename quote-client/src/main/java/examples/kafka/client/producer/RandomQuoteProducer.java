@@ -1,4 +1,4 @@
-package codeexamples.kafka.producer;
+package examples.kafka.client.producer;
 
 import java.io.IOException;
 import java.util.Set;

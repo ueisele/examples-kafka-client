@@ -1,4 +1,4 @@
-package codeexamples.kafka.producer;
+package examples.kafka.client.producer;
 
 public class Quote {
 

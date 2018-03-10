@@ -1,1 +1,1 @@
-= Kafka Code Examples
+= Kafka Client Example

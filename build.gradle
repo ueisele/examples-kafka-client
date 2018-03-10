@@ -12,16 +12,16 @@ task artifactDef() {
 }
 
 allprojects {
-    group = 'codeexamples.kafka'
+    group = 'examples.kafka'
     version = grgit.describe()
 
     repositories {
-        mavenLocal()
         mavenCentral()
         jcenter()
         maven {
             url 'http://packages.confluent.io/maven/'
         }
+        mavenLocal()
     }
 }
 
@@ -50,14 +50,14 @@ subprojects {
         }
 
         compileJava {
-            sourceCompatibility = '1.9'
-            targetCompatibility = '1.9'
+            sourceCompatibility = '1.8'
+            targetCompatibility = '1.8'
             options.encoding = 'UTF-8'
         }
 
         compileTestJava {
-            sourceCompatibility = '1.9'
-            targetCompatibility = '1.9'
+            sourceCompatibility = '1.8'
+            targetCompatibility = '1.8'
             options.encoding = 'UTF-8'
         }
     }

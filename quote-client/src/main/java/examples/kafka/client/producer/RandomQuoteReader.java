@@ -1,4 +1,4 @@
-package codeexamples.kafka.producer;
+package examples.kafka.client.producer;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -8,7 +8,6 @@ import java.io.*;
 import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class RandomQuoteReader {

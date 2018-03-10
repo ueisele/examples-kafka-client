@@ -1,4 +1,4 @@
-package codeexamples.kafka.consumer;
+package examples.kafka.client.consumer;
 
 public class QuoteReader {
 
